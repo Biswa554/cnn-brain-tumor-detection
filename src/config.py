@@ -13,6 +13,8 @@ IMAGE_SIZE = (224, 224)
 BATCH_SIZE = 32          
 EPOCHS = 20              
 CACHE_DATASET = True         # Cache dataset in RAM to avoid repeated disk/OneDrive I/O
+# Model architecture: "transfer" (Pretrained MobileNetV2, ~97% accuracy) or "custom" (4-layer basic CNN)
+MODEL_ARCHITECTURE = "transfer"
 RANDOM_SEED = 42
 VALIDATION_SPLIT = 0.2
 NUM_CLASSES = 4
