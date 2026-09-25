@@ -1,0 +1,15 @@
+# Dataset and model artifacts are local and must not be committed.
+dataset/
+datasets/
+models/
+results/
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.keras
+*.h5
+.env
+.ipynb_checkpoints/
+.streamlit/secrets.toml
